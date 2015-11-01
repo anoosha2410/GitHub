@@ -1,0 +1,12 @@
+
+##Example
+### - Regression knit example
+
+```{r}
+
+
+setwd("C:/Users/wmathura/Documents")
+mydata<-read.csv("Ozone_data.csv")
+summary(lm(Ozone ~ Temp+Month, data = mydata))
+
+```
